@@ -1,0 +1,211 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.0.206d996c)"
+    },
+    "extensionsUsed": [
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 512,
+            "type": "VEC3",
+            "max": [
+                0.9961947798728943,
+                0.9961947798728943,
+                1.6391277313232423e-7
+            ],
+            "min": [
+                -0.9961946606636047,
+                -0.9961947798728943,
+                -0.20000000298023225
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 512,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -0.9848078489303589,
+                -1.0,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 512,
+            "type": "VEC2",
+            "max": [
+                0.9442023038864136,
+                0.9984825253486633
+            ],
+            "min": [
+                0.001512352959252894,
+                0.001519322395324707
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 1236,
+            "type": "SCALAR",
+            "max": [
+                511
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 21328,
+            "uri": "neoslogo_lowpoly.fbx.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 6144,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 6144,
+            "byteLength": 6144,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 12288,
+            "byteLength": 4096,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 16384,
+            "byteLength": 4944,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "Material: DefaultMaterial",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    0.699999988079071,
+                    0.0,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "neoslogo_lowpoly.fbx",
+            "matrix": [
+                -0.0035391738638281824,
+                -0.0006329763564281166,
+                -0.0035021346993744375,
+                0.0,
+                -0.0030954601243138315,
+                -0.0018895795801654459,
+                0.003469719784334302,
+                0.0,
+                -0.0017560571432113648,
+                0.004606537986546755,
+                0.0009420413407497108,
+                -0.0,
+                1.253893256187439,
+                1.1662086248397828,
+                -0.8579631447792053,
+                1.0
+            ],
+            "children": [
+                1,
+                4
+            ]
+        },
+        {
+            "name": "Assets",
+            "children": [
+                2,
+                3
+            ]
+        },
+        {
+            "name": "Mesh"
+        },
+        {
+            "name": "Material: DefaultMaterial"
+        },
+        {
+            "name": "RootNode",
+            "children": [
+                5
+            ]
+        },
+        {
+            "name": "Circle",
+            "matrix": [
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.0,
+                -0.000035762786865234378,
+                100.00001525878906,
+                0.0,
+                -0.0,
+                -100.00001525878906,
+                -0.000035762786865234378,
+                -0.0,
+                0.0,
+                0.0,
+                -0.0,
+                1.0
+            ],
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
