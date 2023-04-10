@@ -1,0 +1,49 @@
+{
+  "name": "neosvr.jp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "homepage": "/",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neos-love/neosvr.jp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neos-love/neosvr.jp/issues"
+  },
+  "dependencies": {
+    "@react-three/cannon": "^6.5.2",
+    "@react-three/drei": "^9.64.0",
+    "@react-three/fiber": "^8.9.1",
+    "@react-three/postprocessing": "^2.7.1",
+    "@react-three/rapier": "^0.14.0",
+    "@types/three": "^0.150.1",
+    "leva": "^0.9.34",
+    "maath": "^0.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "three": "^0.151.3",
+    "typescript": "^4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
